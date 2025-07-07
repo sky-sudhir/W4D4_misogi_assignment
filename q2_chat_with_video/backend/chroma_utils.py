@@ -3,9 +3,9 @@ import chromadb
 from chromadb.utils.embedding_functions import DefaultEmbeddingFunction
 
 client = chromadb.CloudClient(
-  api_key='ck-Gcs4QirnRarSDJHkg5QTRSDoJdLqPAVvMwntVskqU8Y9',
-  tenant='4d85fc60-287d-4c5b-8d60-710393526739',
-  database='hrm'
+  api_key='API_KEY',
+  tenant='TENENT',
+  database='DB'
 )
 # collection = client.get_or_create_collection("lecture")
 embedding_fn = DefaultEmbeddingFunction()
