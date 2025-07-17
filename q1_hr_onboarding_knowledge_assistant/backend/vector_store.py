@@ -3,8 +3,8 @@ from chromadb.config import Settings
 
 
 client = chromadb.CloudClient(
-  api_key='ck-Gcs4QirnRarSDJHkg5QTRSDoJdLqPAVvMwntVskqU8Y9',
-  tenant='4d85fc60-287d-4c5b-8d60-710393526739',
+  api_key='apikey',
+  tenant='apikey',
   database='hrm'
 )
 collection = client.get_or_create_collection("hr-docs")
